@@ -1,0 +1,75 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["Hi","Hey","How are you","Is anyone there?","Hello","Good day"],
+      "responses": ["Hey","Hello, thanks for visiting","Hi there, what can I do for you?","Hi there, how can I help?"]
+    },
+
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": ["See you later, thanks for visiting","Have a nice day","Bye! Come back again soon."]
+    },
+
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+    },
+    {
+      "tag": "name",
+      "patterns": ["what is your name","name","what's your name","who are you","what should I call you"],
+      "responses": ["You can call me Wub Assistor","I'm Wub Assistor","I'm Wub Assistor your virtual assistant"]
+    },
+
+    {
+      "tag": "courses",
+      "patterns": ["what courses are available"],
+      "responses": ["Department Of Business Administration,\nDepartment Of Civil Engineering,\nDepartment Of Computer Science And Engineering,\nEEE,\nPharmacy"]
+    },
+        {
+      "tag": "semesters",
+      "patterns": [
+        "how many semesters are there in a year","how many semesters one should study in a year"],
+      "responses": [
+        "There are two semesters in a year"]
+    },
+    {
+      "tag": "contact",
+      "patterns": [
+        "How can i contact you"],
+      "responses": [
+        "We are located in the North part of Dhaka City near the International Airport. This is a new extension of the city which is named Uttara.\n\nOur address is: Plot: 5 - 8, Avenue 6 & Lake Drive Road Sector: 17/H,\n1230. Dhaka, Dhaka Division, Bangladesh\n\nYou can contact us at info@wub.edu.bd\nOur #Admissionhelpline \n+8801783651523, +8801879542572, +8801955384008\n+8801783651567\n\nOur business hours are:\nMon-Wed: 09:00-19:45\nThu: 08:00-19:45\nFri: 09:00-19:45\nSat: 08:00-19:45"]
+    },
+    {
+      "tag": "classes",
+      "patterns": [
+        "how many classes will be there in a day","how long are the classes?"],
+      "responses": [
+        "There may be two or three classes per day.Each class will be 1 hour and 30 minutes."]
+    },
+    {
+      "tag": "facilities",
+      "patterns": [
+        "what facilities are provided by the university?", "what are the facilities of university for students?"],
+      "responses": [
+        "With excellent education facilities, Our College provides various other facilities like 24 hours internet, library, classes with AC, discussion room, canteen, parking space ,Transport service, and student service for any students queries."]
+    },
+    {
+      "tag": "fee",
+      "patterns": [
+        "how much is the Tuition fee","what is the fee structure"],
+      "responses": [
+        "For details of our programmes, please see https://wub.edu.bd/admission/programs\n\nWe offer 50%-100% scholarship to meritorious students based on their previous academic (SSC, HSC/Diploma/O Level and A Level) results. Moreover, we also have the 80% scholarship on tuition fees to the female students. For scholarship details please see: http://wub.edu.bd/admission/merit_based_scholarship\n"
+      ]
+    },
+    {
+      "tag": "exams",
+      "patterns": [
+        "what are the exams like?","What is the exam pattern"],
+      "responses": [
+       "There are assignments which carry more weight than your written exams. The assignments have deadlines which you should not exceed if you want to get better marks."]
+    }
+  ]
+}
